@@ -1,0 +1,3 @@
+Manifolds
+    tangent spacces: Imagine a sphere in $\mathbb{R}^3$. At each point on the sphere, there is a tangent plane. This tangent plane is eaasy to retrieve for this surface in $\mathbb{R}^3$. But how does one retrieve this for the sphere as a manifold?
+    
