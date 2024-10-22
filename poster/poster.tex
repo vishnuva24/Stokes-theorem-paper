@@ -38,6 +38,7 @@
 \usepackage{xcolor}
 \usepackage{amsfonts}
 \usepackage{tikz}
+\usepackage{tikz-3dplot}
 \usepackage{pgfplots}
 \pgfplotsset{compat=newest}
 \usetikzlibrary{decorations.markings}
@@ -54,11 +55,11 @@
 \newcommand{\prodl}{\prod\limits}
 
 
-\title{\parbox{0.95\linewidth}{Generalised Stokes Theorem}}
+\title{\parbox{0.5\linewidth}{Generalised Stokes Theorem}}
 \author{\textbf{Vishnu Varadarajan}}
 \institute{Ashoka University Math Apprenticeship Program, Ashoka University}
 
-\titlegraphic{\includegraphics[width=0.2\textwidth]{Ashoka_University_logo_with_wordmark.png}}
+\titlegraphic{\includegraphics[width=0.3\textwidth]{ashoka-logo.png} \hspace*{4cm}}
 
 \tikzset{arrmark/.style={postaction={decorate,decoration={markings,
 mark=at position #1/11-0.1/11 with {\arrow[orange]{<};},
@@ -70,8 +71,9 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
     \begin{columns}
         \column{0.5}
         \block{Context}{
+            
             \begin{itemize}
-                \item Gauss was studying surfaces, and wanted to define curvature in a way that was independent of the $3-$dimensional space that the surface is embedded in. The vector calculus view of surfaces is an extrinsic view. But there is also an intrinsic geometry of these surfaces.
+                \item Gauss was studying surfaces, and wanted to define curvature in a way that was independent of the $3$-dimensional space that the surface is embedded in. The vector calculus view of surfaces is an extrinsic view. But there is also an intrinsic geometry of these surfaces.
                 \begin{center}
                     \begin{tikzpicture}
                         \draw[<->, thin] (-10,0) to (-5,0) node[above left=10pt] {$\mathbb{R}$};
@@ -85,29 +87,22 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
                         \draw[red, bend right] (0,-1.5) to (-1.5,0);
                     \end{tikzpicture} \quad
                     \includegraphics[scale=0.4]{lineinr3.png} 
+                    \includegraphics[scale=0.27]{ftc.jpg}
                 \end{center}
                 This intrinsic view of surfaces, is developed in the theory of manifolds.
-                
                 \item The generalised stokes theorem is an analog to the fundamental theorem of calculus, in the setting of manifolds. The fundamental theorem of calculus states:
-                \begin{center}
-                    \includegraphics[scale=0.45]{ftc.jpg}
-                \end{center}
             \end{itemize}
         }
         \block{Manifolds}{
             \begin{itemize}
-                \item Manifolds are a topological space such that each point is locally homeomorphic to an open set in a Euclidean space. For example, circles, spheres, torus, m\"obius strip etc.
+                \item Manifolds are a topological space such that each point is locally homeomorphic to an open set in a Euclidean space. For example, circles, spheres, torus, etc. There are surfaces that dont fully fit into this definition like the hemisphere. The neighborhood of a point on its boundary is not homeomorphic to a Euclidean space, because it is not an open set. For this, we restrict the co-domain of the homeomorphism to the Euclidean Half space. Such structures are called \textit{Manifolds with boundary}
                 \begin{center}
                     % \includegraphics[scale=0.9]{circ1man.png}
-                    \includegraphics[scale=1]{sphere2man.png}
+                    \includegraphics[scale=0.7]{sphere2man.png} \quad \quad \quad \quad \quad \quad
+                    \includegraphics[scale=0.3]{manwbound.png}
                 \end{center}
                 In the above, the neighborhood paired with the homeomorphism $(U,\varphi)$ is called a \textit{chart}. Because at all points this manifold resembles a Euclidean space, a collection of these charts for neighborhoods of each point on the manifold, is given the term \textit{Atlas}.
-                \item smooth manifolds.
-                \item There are surfaces that dont fully fit into this definition like the hemisphere. The neighborhood of a point on its boundary is not homeomorphic to a Euclidean space, because it is not an open set. For this rather than the entire euclidean space, we restrict the domain of the homeomorphism to the Euclidean Half space. Such structures are called \textit{Manifolds with boundary}
-                \begin{center}
-                    \includegraphics[scale=0.45]{manwbound.png}
-                \end{center}
-                \item Tangent Space: Recall the view of tangents as the direction of motion on a path on the surface. This is the idea behind the tangent space. We consider paths on the manifold and the directional derivative operator along these paths on functions on the manifold as the tangent vectors. 
+                \item Tangent Space: Recall the view of tangents as the direction of motion on a path on the surface. We consider paths on the manifold and the directional derivative operator along these paths on functions on the manifold as the tangent vectors. 
                 \begin{center}
                     
                         \includegraphics[scale=0.4]{tangentvec.png} 
@@ -115,25 +110,113 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
                 \end{center}
             \end{itemize}
         }
-
-        \column{0.5}
         \block{Differential Forms}{
         \begin{itemize}
-            \item Tensors: $k-$linear, real valued functions, $V^k \to \mathbb{R}$. Examples: the dot product, a two tensor, the determinant, a $k-$tensor.
-            \\
-            Tensor product: combines a $k$ and an $l$ tensor to give a $k+l$ tensor. Defined as 
+            \item The motivation is to figure out what integration on a manifold means. Unlike Euclidean space, smooth manifolds don't have a straightforward way to measure areas when changing coordinates. Integrating a constant function on two speres of different radii in $\mathbb{R}^3$ gives different results. Both are indistinguishable as $2$-manifolds (diffeormorphic).
+            \item Integration over Euclidean surfaces and where that fails on manifolds: infinitesimal area elements. How to measure that on the manifold? charts dont work as they dont preserve area. 
+            \begin{center}
+                \includegraphics[scale=0.5]{riemannint.png} \quad \quad \quad \quad \quad \quad \quad \quad \quad
+                \includegraphics[scale=0.5]{tangentareaelement.png}
+            \end{center}
+            % \begin{center}
+            %     \tdplotsetmaincoords{60}{80}
+
+            %         \begin{tikzpicture}[tdplot_main_coords, scale=7]
+            %             % Define axes
+            %             \draw[thick,->] (0,0,0) -- (2,0,0) node[anchor=north east]{$x$};
+            %             \draw[thick,->] (0,0,0) -- (0,2,0) node[anchor=south east]{$y$};
+            %             \draw[thick,->] (0,0,0) -- (0,0,2) node[anchor=south]{$z$};
+
+            %             % Draw the xy-plane
+            %             \draw[dashed] (0,0,0) -- (2,2,0);
+            %             \draw[dashed] (2,0,0) -- (2,2,0);
+            %             \draw[dashed] (0,2,0) -- (2,2,0);
+
+            %             \pgfdeclareverticalshading{custom}{100bp}{
+            %                 color(0bp)=(gray!10);
+            %                 color(25bp)=(gray!30);
+            %                 color(50bp)=(gray!50);
+            %                 color(75bp)=(gray!70);
+            %                 color(100bp)=(gray!90)
+            %             }
+                    
+            %             % Draw the surface between the curves with custom shading
+            %             \path[shading=custom,shading angle=45,opacity=0.7] 
+            %                 plot[smooth, tension=0.7] coordinates {(0.1,0.3,0) (1,0.7,0) (0.7,1.2,0) (1.5,1.7,0)}
+            %                 -- plot[smooth, tension=0.7] coordinates {(1.5,1.7,1) (0.7,1.2,0.5) (1,0.7,1) (0.1,0.3,1.5)}
+            %                 -- cycle;
+                    
+            %             % Add curved lines to enhance 3D effect and show morphing
+            %             \foreach \t in {0,0.2,...,1} {
+            %                 \draw[black!50, opacity=0.7] 
+            %                     plot[smooth, tension=0.7] coordinates {
+            %                         (0.1,0.3,{1.5*\t}) 
+            %                         (1,0.7,{\t}) 
+            %                         (0.7,1.2,{0.5*\t}) 
+            %                         (1.5,1.7,{\t})
+            %                     };
+            %             }
+            %                                 % Draw a smooth path in the xy-plane
+            %             \draw[red, thick] plot[smooth, tension=0.7] 
+            %                 coordinates {(0.1,0.3,0) (1,0.7,0) (0.7,1.2,0) (1.5,1.7,0) };
+            %             \node at (1.5,1.5,0) {$\mathcal{N}$};
+            %             \node at (1.5,0.5, 0) {$\mathcal{M} = \mathbb{R}^2$};
+            %             \draw[blue, thick] plot[smooth, tension=0.7] 
+            %                 coordinates {(0.1,0.3,1.5) (1,0.7,1) (0.7,1.2,0.5) (1.5,1.7,1) };
+
+            %         \end{tikzpicture}
+            % \end{center}
+            \item At each point on the manifold, we need a way to measure the area of infinitesimal rectangles in a manner independent of coordinates. This is achieved through differential forms. A $k$-form takes an ``infinitesimal $k$-parallelogram'' (edges given by tangent vectors) as input and returns its $k$-volume. When areas come into picture, it is natural to expect multilinearity and antisymmetry. The algebra is developed keeping this mind. 
+            \item Tensors: A $k$-tensor is a multilinear map from $V^k$ to $\mathbb{R}$, where $V$ is a vector space. A tensor is said to be alternating if it changes sign under the interchange of any two of its arguments.
             \[
-                (K \otimes L)(v_1, v_2, \dots, v_{k+l}) = K(v_1 \dots v_k)\cdot L(v_k+1, \dots, v_{k+l})
+                T(v_1, \ldots, v_k) = \text{sgn}(\sigma) T(v_{\sigma(1)}, \ldots, v_{\sigma(k)})
             \]
-
-
-            \item The dual of a vector space $V$ is the space of linear, real valued functions on $V$. This is denoted $V^*$. So it is also the space of 1-tensors on $V$. The dual space is isomorphic to the original vector space.
-            \item Forms on $\mathbb{R}^n$: A $k-$form on $\mathbb{R}^n$ is an alternating $k-$tensor 
-            \item forms on manifold, 1 forms as cotangent vetors
-            \item exterior derivative
-            \item pull backs
+            Tensor Product: combines a $k$-tensor and an $l$-tensor to form a $(k+l)$-tensor. Defined as following, where $T$ and $S$ are $k$ and $l$ tensors respectively.
+            \[
+                T \otimes S(v_1, \ldots, v_{k+l}) = T(v_1, \ldots, v_k) S(v_{k+1}, \ldots, v_{k+l})
+            \]
+            The Alt operator: maps a $k$-tensor to an alternating $k$-tensor.
+            \[
+                \text{Alt}(T)(v_1, \ldots, v_k) = \frac{1}{k!} \sum_{\sigma \in S_k} \text{sgn}(\sigma) T(v_{\sigma(1)}, \ldots, v_{\sigma(k)}) = \frac{1}{k!} \sum_{\sigma \in S_k} \sigma T \cdot \text{sgn}(\sigma)
+            \]
+            \item The wedge product: combines $k$-tensor and $l$-tensor to form an alternating $(k+l)$-tensor. It is defined as following, where $T$ and $S$ are $k$ and $l$ tensors respectively.
+            \[
+                T \wedge S = \text{Alt}(T \otimes S)
+            \]
         \end{itemize}
         }
+        
+
+        \column{0.5}
+         \block{}{
+            A consistent way to measure $k$-volume: a mesh of atoms and conting how many of those lie within the object, multiply by a scaling factor. Coordinate-independent measurement of area, as any distortion between two charts of will imply an equal distortion of the atoms, and area is conserved.
+            \begin{center}
+                \includegraphics[scale=0.3]{dxdyform.png} \qquad
+                \includegraphics[scale=0.3]{2dxdyform.png} \qquad
+                \includegraphics[scale=0.3]{xdxdyform.png}
+            \end{center}
+            With this, we think of a $k$-form as a measuring tape for $k$-dimensional volumes. This motivates an $n$- form on an $n$-manifold but why are other order forms needed? 
+            \begin{center}
+                \includegraphics[scale=0.3]{atom-manifolds.png}\qquad
+                \includegraphics[scale=0.35]{otherformsmotiv.png}
+            \end{center}
+            \begin{itemize}
+                \item The above definitions are insufficient for integrating over $k$-dimensional subsets (pecifically $k$-dimensional submanifolds, $\mathcal{N}$) and calculating their $k$-volumes, s of $\mathcal{M}$. 
+                \item Algebraically, We define a “\( k \)-form on \( \mathcal{M} \)” as an object \( \omega \) that takes \( k \) tangent vectors at the same point of \( \mathcal{M} \), and its restriction to \( \mathcal{N} \) is simply the restriction of \( \omega \) to the collection of vectors tangent to \( \mathcal{N} \).
+                \item To visualise it, a $k$-form on $\mathbb{R}^n$ can be seen as a stack of $n-k$ dimensional hyperplanes. The intersection of the hyperplanes and the $k$-dimensional subspace gives points which act as the atoms that we use for measuring $k$-volume.
+                \begin{center}
+                    \includegraphics[scale=0.8]{2formsinr3.png} \qquad \qquad
+                    \includegraphics[scale=0.3]{2formasproj.png}
+                \end{center}
+                \item The basis forms: measuring tapes along the $k$-planes formed by axes.
+                \begin{itemize}
+                    \item basis $1$-forms: projected lengths, inner product with basis vectors of $\mathbb{R}^n$. $dx_i$.
+                    \item basis $k$-forms: $k$-volume of the $k$-parallelogram projected onto the $k$-plane. Wedge products of $k$ basis $1$-forms. $dx_{i_1} \wedge \cdots \wedge dx_{i_k}$.
+                \end{itemize}
+                \item Extending these to the manifold: at each point, the $k$-form behaves similarly on the tangent space. 
+            \end{itemize}
+         }
+        
         \block{Integration}{
             \begin{itemize}
                 \item integral of forms on Rn

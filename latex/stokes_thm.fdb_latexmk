@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex stokes_thm"] 1724824599.63462 "stokes_thm.aux" "stokes_thm.bbl" "stokes_thm" 1724941279.17512 0
+["bibtex stokes_thm"] 1728305329.05109 "stokes_thm.aux" "stokes_thm.bbl" "stokes_thm" 1728305331.94815 0
   "./references.bib" 1721043310 1892 bfe2c9310ce316f0580a0abbcc2b752c ""
-  "C:/Users/vishn/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "stokes_thm.aux" 1724941278 6452 0c1141732cdcdbefc9b08d8214b748a5 "pdflatex"
+  "C:/Users/vishn/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/abbrv.bst" 1291864736 20329 b5fed53e10044d0f8112183785c759b1 ""
+  "stokes_thm.aux" 1728305331 6524 29234f95e41c45374ea35a93cc3e3c10 "pdflatex"
   (generated)
   "stokes_thm.bbl"
   "stokes_thm.blg"
   (rewritten before read)
-["pdflatex"] 1724941276.30349 "c:/Users/vishn/OneDrive/Desktop/Ashoka/Ashoka/REU/latex/stokes_thm.tex" "stokes_thm.pdf" "stokes_thm" 1724941279.17565 0
-  "C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724217758 91569 d22def9a2847f3a58485046215bedfca ""
+["pdflatex"] 1728305329.36722 "c:/Users/vishn/OneDrive/Desktop/Ashoka/Ashoka/REU/latex/stokes_thm.tex" "stokes_thm.pdf" "stokes_thm" 1728305331.94868 0
+  "C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726950124 91569 d22def9a2847f3a58485046215bedfca ""
   "C:/Users/vishn/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1710685776 11548 efe9f0112fcde355191d5523e5039144 ""
   "C:/Users/vishn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710935637 24233103 5d77498eb94ce6027e5635f4397c10b6 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -62,7 +62,6 @@
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
-  "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb" 1247596673 35309 940e81a5b9e04201a07e8b33a3ae6e64 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb" 1548297500 29149 255c816a3ea115011c5f5da65478689c ""
@@ -151,6 +150,7 @@
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def" 1673775190 6950 8524a062d82b7afdc4a88a57cb377784 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquecounter.sty" 1576434012 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
+  "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty" 1591023609 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd" 1358197772 961 6518c6525a34feb5e8250ffa91731cff ""
@@ -168,6 +168,7 @@
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty" 1705273578 5319 2b738d02ce36ada6dcdd9534940db0ee ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1705273578 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/blochsphere/blochsphere.sty" 1442669564 17069 49b493316b72ab776e45a0b7404d2e86 ""
+  "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/comment/comment.sty" 1468691282 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty" 1399192161 4378 f429f0da968c278653359293040a8f52 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -222,17 +223,15 @@
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/yhmath/yhmath.sty" 1584531306 4974 0d87ecb9c52cb398cf8866a2c0fb9d8d ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/vishn/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "c:/Users/vishn/OneDrive/Desktop/Ashoka/Ashoka/REU/latex/stokes_thm.tex" 1724941275 88325 237c0bb500da4f5013d0a1be046d731c ""
+  "c:/Users/vishn/OneDrive/Desktop/Ashoka/Ashoka/REU/latex/stokes_thm.tex" 1728305323 89057 68a400f8490ffd9a10762cbcc34971d2 ""
   "images/r3ori.png" 1724202908 63267 34db8d949db292ad108d4cef7cfac3f1 ""
-  "stokes_thm.aux" 1724941278 6452 0c1141732cdcdbefc9b08d8214b748a5 "pdflatex"
-  "stokes_thm.bbl" 1724824599 1122 d70363f7d279d33257027ba905642092 "bibtex stokes_thm"
-  "stokes_thm.out" 1724941278 5721 252ffb2f98a74212120a2610cf7497d2 "pdflatex"
-  "stokes_thm.tex" 1724941275 88325 237c0bb500da4f5013d0a1be046d731c ""
-  "stokes_thm.toc" 1724941278 3129 725c2b41d0607aa52ba1c71cebf926cc "pdflatex"
+  "stokes_thm.aux" 1728305331 6524 29234f95e41c45374ea35a93cc3e3c10 "pdflatex"
+  "stokes_thm.bbl" 1728305329 1112 9d92bdf354e43d80c539d58b97306d34 "bibtex stokes_thm"
+  "stokes_thm.out" 1728305331 5724 49e40b93aebdbb2c358151f569ee2635 "pdflatex"
+  "stokes_thm.tex" 1728305323 89057 68a400f8490ffd9a10762cbcc34971d2 ""
   (generated)
   "stokes_thm.aux"
   "stokes_thm.log"
   "stokes_thm.out"
   "stokes_thm.pdf"
-  "stokes_thm.toc"
   (rewritten before read)

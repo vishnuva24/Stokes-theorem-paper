@@ -1,7 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{formsplaylist}
-Math 3500/10.
+M.~3500/10.
 \newblock Differential forms.
 \newblock
   \url{https://youtube.com/playlist?list=PLgDV2y4Xrx7N4RnMj_gek2JfiT2SlsVm8&feature=shared},
@@ -9,12 +9,12 @@ Math 3500/10.
 \newblock Accessed: 2024-06-28.
 
 \bibitem{armstrong2013basic}
-M.A. Armstrong.
+M.~Armstrong.
 \newblock {\em Basic Topology}.
 \newblock Undergraduate Texts in Mathematics. Springer New York, 2013.
 
 \bibitem{hubbard2009vector}
-J.H. Hubbard and B.B. Hubbard.
+J.~Hubbard and B.~Hubbard.
 \newblock {\em Vector Calculus, Linear Algebra, and Differential Forms: A
   Unified Approach}.
 \newblock Matrix Editions, 2009.
@@ -32,7 +32,7 @@ M.~Spivak.
 \newblock Avalon Publishing, 1971.
 
 \bibitem{tu2010introduction}
-L.W. Tu.
+L.~Tu.
 \newblock {\em An Introduction to Manifolds}.
 \newblock Universitext. Springer New York, 2010.
 

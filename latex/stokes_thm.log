@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.20)  29 AUG 2024 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.20)  7 OCT 2024 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,6 +252,17 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip58
+\thm@postskip=\skip59
+\thm@headsep=\skip60
+\dth@everypar=\toks29
 ) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -266,11 +277,13 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen164
 \ar@mcellbox=\box54
 \extrarowheight=\dimen165
-\NC@list=\toks24
-\extratabsurround=\skip58
-\backup@length=\skip59
+\NC@list=\toks30
+\extratabsurround=\skip61
+\backup@length=\skip62
 \ar@cellbox=\box55
-) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2024-02-18 L3 Experimental document command parser
@@ -296,47 +309,47 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-\mdf@templength=\skip60
+\mdf@templength=\skip63
 \c@mdf@globalstyle@cnt=\count294
-\mdf@skipabove@length=\skip61
-\mdf@skipbelow@length=\skip62
-\mdf@leftmargin@length=\skip63
-\mdf@rightmargin@length=\skip64
-\mdf@innerleftmargin@length=\skip65
-\mdf@innerrightmargin@length=\skip66
-\mdf@innertopmargin@length=\skip67
-\mdf@innerbottommargin@length=\skip68
-\mdf@splittopskip@length=\skip69
-\mdf@splitbottomskip@length=\skip70
-\mdf@outermargin@length=\skip71
-\mdf@innermargin@length=\skip72
-\mdf@linewidth@length=\skip73
-\mdf@innerlinewidth@length=\skip74
-\mdf@middlelinewidth@length=\skip75
-\mdf@outerlinewidth@length=\skip76
-\mdf@roundcorner@length=\skip77
-\mdf@footenotedistance@length=\skip78
-\mdf@userdefinedwidth@length=\skip79
-\mdf@needspace@length=\skip80
-\mdf@frametitleaboveskip@length=\skip81
-\mdf@frametitlebelowskip@length=\skip82
-\mdf@frametitlerulewidth@length=\skip83
-\mdf@frametitleleftmargin@length=\skip84
-\mdf@frametitlerightmargin@length=\skip85
-\mdf@shadowsize@length=\skip86
-\mdf@extratopheight@length=\skip87
-\mdf@subtitleabovelinewidth@length=\skip88
-\mdf@subtitlebelowlinewidth@length=\skip89
-\mdf@subtitleaboveskip@length=\skip90
-\mdf@subtitlebelowskip@length=\skip91
-\mdf@subtitleinneraboveskip@length=\skip92
-\mdf@subtitleinnerbelowskip@length=\skip93
-\mdf@subsubtitleabovelinewidth@length=\skip94
-\mdf@subsubtitlebelowlinewidth@length=\skip95
-\mdf@subsubtitleaboveskip@length=\skip96
-\mdf@subsubtitlebelowskip@length=\skip97
-\mdf@subsubtitleinneraboveskip@length=\skip98
-\mdf@subsubtitleinnerbelowskip@length=\skip99
+\mdf@skipabove@length=\skip64
+\mdf@skipbelow@length=\skip65
+\mdf@leftmargin@length=\skip66
+\mdf@rightmargin@length=\skip67
+\mdf@innerleftmargin@length=\skip68
+\mdf@innerrightmargin@length=\skip69
+\mdf@innertopmargin@length=\skip70
+\mdf@innerbottommargin@length=\skip71
+\mdf@splittopskip@length=\skip72
+\mdf@splitbottomskip@length=\skip73
+\mdf@outermargin@length=\skip74
+\mdf@innermargin@length=\skip75
+\mdf@linewidth@length=\skip76
+\mdf@innerlinewidth@length=\skip77
+\mdf@middlelinewidth@length=\skip78
+\mdf@outerlinewidth@length=\skip79
+\mdf@roundcorner@length=\skip80
+\mdf@footenotedistance@length=\skip81
+\mdf@userdefinedwidth@length=\skip82
+\mdf@needspace@length=\skip83
+\mdf@frametitleaboveskip@length=\skip84
+\mdf@frametitlebelowskip@length=\skip85
+\mdf@frametitlerulewidth@length=\skip86
+\mdf@frametitleleftmargin@length=\skip87
+\mdf@frametitlerightmargin@length=\skip88
+\mdf@shadowsize@length=\skip89
+\mdf@extratopheight@length=\skip90
+\mdf@subtitleabovelinewidth@length=\skip91
+\mdf@subtitlebelowlinewidth@length=\skip92
+\mdf@subtitleaboveskip@length=\skip93
+\mdf@subtitlebelowskip@length=\skip94
+\mdf@subtitleinneraboveskip@length=\skip95
+\mdf@subtitleinnerbelowskip@length=\skip96
+\mdf@subsubtitleabovelinewidth@length=\skip97
+\mdf@subsubtitlebelowlinewidth@length=\skip98
+\mdf@subsubtitleaboveskip@length=\skip99
+\mdf@subsubtitlebelowskip@length=\skip100
+\mdf@subsubtitleinneraboveskip@length=\skip101
+\mdf@subsubtitleinnerbelowskip@length=\skip102
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
@@ -345,33 +358,33 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box58
 \mdf@splitbox@two=\box59
 \mdf@splitbox@save=\box60
-\mdfsplitboxwidth=\skip100
-\mdfsplitboxtotalwidth=\skip101
-\mdfsplitboxheight=\skip102
-\mdfsplitboxdepth=\skip103
-\mdfsplitboxtotalheight=\skip104
-\mdfframetitleboxwidth=\skip105
-\mdfframetitleboxtotalwidth=\skip106
-\mdfframetitleboxheight=\skip107
-\mdfframetitleboxdepth=\skip108
-\mdfframetitleboxtotalheight=\skip109
-\mdffootnoteboxwidth=\skip110
-\mdffootnoteboxtotalwidth=\skip111
-\mdffootnoteboxheight=\skip112
-\mdffootnoteboxdepth=\skip113
-\mdffootnoteboxtotalheight=\skip114
-\mdftotallinewidth=\skip115
-\mdfboundingboxwidth=\skip116
-\mdfboundingboxtotalwidth=\skip117
-\mdfboundingboxheight=\skip118
-\mdfboundingboxdepth=\skip119
-\mdfboundingboxtotalheight=\skip120
-\mdf@freevspace@length=\skip121
-\mdf@horizontalwidthofbox@length=\skip122
-\mdf@verticalmarginwhole@length=\skip123
-\mdf@horizontalspaceofbox=\skip124
-\mdfsubtitleheight=\skip125
-\mdfsubsubtitleheight=\skip126
+\mdfsplitboxwidth=\skip103
+\mdfsplitboxtotalwidth=\skip104
+\mdfsplitboxheight=\skip105
+\mdfsplitboxdepth=\skip106
+\mdfsplitboxtotalheight=\skip107
+\mdfframetitleboxwidth=\skip108
+\mdfframetitleboxtotalwidth=\skip109
+\mdfframetitleboxheight=\skip110
+\mdfframetitleboxdepth=\skip111
+\mdfframetitleboxtotalheight=\skip112
+\mdffootnoteboxwidth=\skip113
+\mdffootnoteboxtotalwidth=\skip114
+\mdffootnoteboxheight=\skip115
+\mdffootnoteboxdepth=\skip116
+\mdffootnoteboxtotalheight=\skip117
+\mdftotallinewidth=\skip118
+\mdfboundingboxwidth=\skip119
+\mdfboundingboxtotalwidth=\skip120
+\mdfboundingboxheight=\skip121
+\mdfboundingboxdepth=\skip122
+\mdfboundingboxtotalheight=\skip123
+\mdf@freevspace@length=\skip124
+\mdf@horizontalwidthofbox@length=\skip125
+\mdf@verticalmarginwhole@length=\skip126
+\mdf@horizontalspaceofbox=\skip127
+\mdfsubtitleheight=\skip128
+\mdfsubsubtitleheight=\skip129
 \c@mdfcountframes=\count295
 
 ****** mdframed patching \endmdf@trivlist
@@ -417,7 +430,7 @@ LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 97.
 LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 99.
 LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 101.
 ) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks31
 \pgfutil@tempdima=\dimen166
 \pgfutil@tempdimb=\dimen167
 ) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
@@ -429,10 +442,10 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks34
 ))
 \pgf@x=\dimen168
 \pgf@y=\dimen169
@@ -444,15 +457,15 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yc=\dimen175
 \pgf@xd=\dimen176
 \pgf@yd=\dimen177
-\w@pgf@writea=\write3
+\w@pgf@writea=\write4
 \r@pgf@reada=\read2
 \c@pgf@counta=\count300
 \c@pgf@countb=\count301
 \c@pgf@countc=\count302
 \c@pgf@countd=\count303
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
 \pgf@sys@id@count=\count304
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -491,9 +504,9 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \pgfmath@dimen=\dimen178
 \pgfmath@count=\count307
 \pgfmath@box=\box62
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 ) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count308
 )) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -576,8 +589,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen261
 \pgffor@skip=\dimen262
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 )) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
@@ -649,33 +662,34 @@ Package: blochsphere 2015/08/17
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
+)) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-\c@definition=\count322
-(stokes_thm.aux)
+\c@theorem=\count322
+ Excluding 'comment' comment. (stokes_thm.aux)
 \openout1 = `stokes_thm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -718,114 +732,109 @@ LaTeX Font Info:    ... okay on input line 75.
 \scratchbox=\box75
 \nofMPsegments=\count324
 \nofMParguments=\count325
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count326
 \MPscratchDim=\dimen281
 \MPnumerator=\count327
 \makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks44
 ) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 95.
  (stokes_thm.out) (stokes_thm.out)
-\@outlinefile=\write4
-\openout4 = `stokes_thm.out'.
+\@outlinefile=\write5
+\openout5 = `stokes_thm.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 77.
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 97.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/yhmath\omxyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
-) (stokes_thm.toc [1
+) [1
 
-{C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\tf@toc=\write5
-\openout5 = `stokes_thm.toc'.
-
- [2]
+{C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] [5] [6] [7]
-<images/r3ori.png, id=300, 353.06906pt x 266.49562pt>
+[2] [3] [4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
+<images/r3ori.png, id=260, 353.06906pt x 266.49562pt>
 File: images/r3ori.png Graphic file (type png)
 <use images/r3ori.png>
-Package pdftex.def Info: images/r3ori.png  used on input line 387.
+Package pdftex.def Info: images/r3ori.png  used on input line 407.
 (pdftex.def)             Requested size: 234.87749pt x 177.28648pt.
- [8] [9 <./images/r3ori.png>] [10] [11]
+ [7 <./images/r3ori.png>] [8] [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 525.
+(hyperref)                removing `math shift' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 525.
+(hyperref)                removing `superscript' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 526.
+(hyperref)                removing `math shift' on input line 544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 526.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 526.
-
-[12] [13] [14] [15]
-Overfull \hbox (20.9108pt too wide) in paragraph at lines 723--725
-\OT1/cmr/m/n/10 where $[]$ is the Ja-co-bian of the func-tions $\OML/cmm/m/it/10 f[]; f[]; []  ; f[]$ \OT1/cmr/m/n/10 with re-spect to the co-or-di-nates $\OML/cmm/m/it/10 x[]; x[]; []  ; x[]$\OT1/cmr/m/n/10 .
- []
-
-[16] [17] [18] [19] [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 957--959
-
- []
+(hyperref)                removing `superscript' on input line 545.
 
 
-Overfull \hbox (3.8943pt too wide) detected at line 978
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 545.
+
+[10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+Overfull \hbox (3.8943pt too wide) detected at line 997
 []
  []
 
-[22] [23] [24] [25] [26] [27] (stokes_thm.bbl) [28] (stokes_thm.aux)
+[20] [21] [22] [23] [24] (stokes_thm.bbl [25]
+Underfull \hbox (badness 1817) in paragraph at lines 4--10
+[]\OT1/cmr/m/n/10 M. 3500/10.  Dif-fer-en-tial forms.  [][]$\OT1/cmtt/m/n/10 https : / / youtube . com / playlist ? list = PLgDV2y4Xrx7N4RnMj _
+ []
+
+) [26] (stokes_thm.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `stokes_thm.out' has not changed.
-(rerunfilecheck)             Checksum: 252FFB2F98A74212120A2610CF7497D2;5721.
+(rerunfilecheck)             Checksum: 49E40B93AEBDBB2C358151F569EE2635;5724.
  ) 
 Here is how much of TeX's memory you used:
- 24565 strings out of 474436
- 479468 string characters out of 5741954
- 1947190 words of memory out of 5000000
- 46296 multiletter control sequences out of 15000+600000
+ 24703 strings out of 474436
+ 481792 string characters out of 5741954
+ 1950190 words of memory out of 5000000
+ 46433 multiletter control sequences out of 15000+600000
  571262 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,93p,1151b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vishn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on stokes_thm.pdf (28 pages, 519153 bytes).
+ <C:\Users\vishn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
+Output written on stokes_thm.pdf (26 pages, 498273 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
  414 words of extra memory for PDF output out of 10000 (max. 10000000)
 

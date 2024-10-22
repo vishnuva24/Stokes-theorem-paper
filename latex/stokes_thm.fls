@@ -109,12 +109,16 @@ INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
+INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\mdframed\mdframed.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\mdframed\mdframed.sty
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
@@ -338,10 +342,6 @@ INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\stokes_thm.toc
-INPUT .\stokes_thm.toc
-INPUT stokes_thm.toc
-INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -354,8 +354,8 @@ INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\yhmath\yhcme
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT C:\Users\vishn\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-OUTPUT stokes_thm.toc
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\vf\public\yhmath\yhcmex10.vf
@@ -418,8 +418,6 @@ INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\vishn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm7.pfb

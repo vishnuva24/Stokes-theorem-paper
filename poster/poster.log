@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.20)  28 AUG 2024 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.20)  13 OCT 2024 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -684,7 +684,11 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen373
 \xmathstrut@box=\box101
 \xmathstrut@dim=\dimen374
-) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/tikz-3dplot\tikz-3dplot.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks49
@@ -735,20 +739,20 @@ LaTeX Warning: Unused global option(s):
 (poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count344
@@ -823,166 +827,215 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/Ashoka_University_logo_with_wordmark.png, id=28, 117.5592pt x 49.1436pt>
-File: images/Ashoka_University_logo_with_wordmark.png Graphic file (type png)
-<use images/Ashoka_University_logo_with_wordmark.png>
-Package pdftex.def Info: images/Ashoka_University_logo_with_wordmark.png  used on input line 67.
-(pdftex.def)             Requested size: 449.65709pt x 188.01483pt.
+<images/ashoka-logo.png, id=28, 648.7437pt x 198.5016pt>
+File: images/ashoka-logo.png Graphic file (type png)
+<use images/ashoka-logo.png>
+Package pdftex.def Info: images/ashoka-logo.png  used on input line 68.
+(pdftex.def)             Requested size: 674.50278pt x 206.40044pt.
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 69.
+(Font)              scaled to size 19.70294pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 49.01033pt on input line 69.
+(Font)              scaled to size 49.01033pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 49.01033pt on input line 69.
+(Font)              scaled to size 49.01033pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 49.01033pt on input line 69.
-LaTeX Font Info:    Calculating math sizes for size <51.59> on input line 69.
+(Font)              scaled to size 49.01033pt on input line 70.
+LaTeX Font Info:    Calculating math sizes for size <51.59> on input line 70.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <51.59> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <36.11284> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <51.59> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <36.11284> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 69.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 70.
  (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <51.59> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <36.11284> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <51.59> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <36.11284> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <51.59> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <36.11284> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <25.795> not available
-(Font)              size <24.88> substituted on input line 69.
+(Font)              size <24.88> substituted on input line 70.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 40.84036pt on input line 69.
+(Font)              scaled to size 40.84036pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 40.84036pt on input line 69.
+(Font)              scaled to size 40.84036pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 34.03839pt on input line 69.
-File: images/Ashoka_University_logo_with_wordmark.png Graphic file (type png)
-<use images/Ashoka_University_logo_with_wordmark.png>
-Package pdftex.def Info: images/Ashoka_University_logo_with_wordmark.png  used on input line 69.
-(pdftex.def)             Requested size: 449.65709pt x 188.01483pt.
-File: images/Ashoka_University_logo_with_wordmark.png Graphic file (type png)
-<use images/Ashoka_University_logo_with_wordmark.png>
-Package pdftex.def Info: images/Ashoka_University_logo_with_wordmark.png  used on input line 69.
-(pdftex.def)             Requested size: 449.65709pt x 188.01483pt.
+(Font)              scaled to size 34.03839pt on input line 70.
+File: images/ashoka-logo.png Graphic file (type png)
+<use images/ashoka-logo.png>
+Package pdftex.def Info: images/ashoka-logo.png  used on input line 70.
+(pdftex.def)             Requested size: 674.50278pt x 206.40044pt.
+File: images/ashoka-logo.png Graphic file (type png)
+<use images/ashoka-logo.png>
+Package pdftex.def Info: images/ashoka-logo.png  used on input line 70.
+(pdftex.def)             Requested size: 674.50278pt x 206.40044pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 34.03839pt on input line 96.
+(Font)              scaled to size 34.03839pt on input line 95.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 96.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 96.
+(Font)              scaled to size 23.63593pt on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 95.
 (C:\Users\vishn\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 96.
+(Font)              scaled to size 23.63593pt on input line 95.
 <images/lineinr3.png, id=30, 480.5955pt x 428.802pt>
 File: images/lineinr3.png Graphic file (type png)
 <use images/lineinr3.png>
-Package pdftex.def Info: images/lineinr3.png  used on input line 96.
+Package pdftex.def Info: images/lineinr3.png  used on input line 95.
 (pdftex.def)             Requested size: 192.23479pt x 171.51776pt.
 <images/ftc.jpg, id=31, 1583.31525pt x 791.3565pt>
 File: images/ftc.jpg Graphic file (type jpg)
 <use images/ftc.jpg>
-Package pdftex.def Info: images/ftc.jpg  used on input line 96.
-(pdftex.def)             Requested size: 712.48529pt x 356.10713pt.
+Package pdftex.def Info: images/ftc.jpg  used on input line 95.
+(pdftex.def)             Requested size: 427.50082pt x 213.66911pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <24.88> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 23.63593pt on input line 112.
 <images/sphere2man.png, id=32, 595.023pt x 287.27325pt>
 File: images/sphere2man.png Graphic file (type png)
 <use images/sphere2man.png>
-Package pdftex.def Info: images/sphere2man.png  used on input line 117.
-(pdftex.def)             Requested size: 595.02155pt x 287.27255pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <24.88> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 117.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 23.63593pt on input line 117.
+Package pdftex.def Info: images/sphere2man.png  used on input line 112.
+(pdftex.def)             Requested size: 416.51326pt x 201.0899pt.
 <images/manwbound.png, id=33, 1169.87062pt x 468.24937pt>
 File: images/manwbound.png Graphic file (type png)
 <use images/manwbound.png>
-Package pdftex.def Info: images/manwbound.png  used on input line 117.
-(pdftex.def)             Requested size: 526.43692pt x 210.71027pt.
+Package pdftex.def Info: images/manwbound.png  used on input line 112.
+(pdftex.def)             Requested size: 350.9639pt x 140.47589pt.
 <images/tangentvec.png, id=34, 585.68813pt x 494.59781pt>
 File: images/tangentvec.png Graphic file (type png)
 <use images/tangentvec.png>
-Package pdftex.def Info: images/tangentvec.png  used on input line 117.
+Package pdftex.def Info: images/tangentvec.png  used on input line 112.
 (pdftex.def)             Requested size: 234.27109pt x 197.8356pt.
 <images/tanvecdetails.png, id=35, 852.93657pt x 229.60782pt>
 File: images/tanvecdetails.png Graphic file (type png)
 <use images/tanvecdetails.png>
-Package pdftex.def Info: images/tanvecdetails.png  used on input line 117.
+Package pdftex.def Info: images/tanvecdetails.png  used on input line 112.
 (pdftex.def)             Requested size: 639.70087pt x 172.20543pt.
+<images/riemannint.png, id=36, 283.0575pt x 433.62pt>
+File: images/riemannint.png Graphic file (type png)
+<use images/riemannint.png>
+Package pdftex.def Info: images/riemannint.png  used on input line 187.
+(pdftex.def)             Requested size: 141.5284pt x 216.80946pt.
+<images/tangentareaelement.png, id=37, 1027.84pt x 425.59pt>
+File: images/tangentareaelement.png Graphic file (type png)
+<use images/tangentareaelement.png>
+Package pdftex.def Info: images/tangentareaelement.png  used on input line 187.
+(pdftex.def)             Requested size: 513.91875pt x 212.79446pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 187.
+<images/dxdyform.png, id=38, 543.53062pt x 571.38469pt>
+File: images/dxdyform.png Graphic file (type png)
+<use images/dxdyform.png>
+Package pdftex.def Info: images/dxdyform.png  used on input line 218.
+(pdftex.def)             Requested size: 163.06044pt x 171.41672pt.
+<images/2dxdyform.png, id=39, 536.0025pt x 570.63188pt>
+File: images/2dxdyform.png Graphic file (type png)
+<use images/2dxdyform.png>
+Package pdftex.def Info: images/2dxdyform.png  used on input line 218.
+(pdftex.def)             Requested size: 160.80199pt x 171.19089pt.
+<images/xdxdyform.png, id=40, 539.76656pt x 569.12625pt>
+File: images/xdxdyform.png Graphic file (type png)
+<use images/xdxdyform.png>
+Package pdftex.def Info: images/xdxdyform.png  used on input line 218.
+(pdftex.def)             Requested size: 161.93121pt x 170.73918pt.
+<images/atom-manifolds.png, id=41, 770.88pt x 534.99875pt>
+File: images/atom-manifolds.png Graphic file (type png)
+<use images/atom-manifolds.png>
+Package pdftex.def Info: images/atom-manifolds.png  used on input line 218.
+(pdftex.def)             Requested size: 231.26578pt x 160.50085pt.
+<images/otherformsmotiv.png, id=42, 462.97969pt x 499.8675pt>
+File: images/otherformsmotiv.png Graphic file (type png)
+<use images/otherformsmotiv.png>
+Package pdftex.def Info: images/otherformsmotiv.png  used on input line 218.
+(pdftex.def)             Requested size: 162.0453pt x 174.95624pt.
+<images/2formsinr3.png, id=43, 723.9045pt x 198.7425pt>
+File: images/2formsinr3.png Graphic file (type png)
+<use images/2formsinr3.png>
+Package pdftex.def Info: images/2formsinr3.png  used on input line 218.
+(pdftex.def)             Requested size: 579.12437pt x 158.9942pt.
+<images/2formasproj.png, id=44, 543.53062pt x 492.33937pt>
+File: images/2formasproj.png Graphic file (type png)
+<use images/2formasproj.png>
+Package pdftex.def Info: images/2formasproj.png  used on input line 218.
+(pdftex.def)             Requested size: 163.06044pt x 147.70294pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 218.
  [1
 
-{C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/Ashoka_University_logo_with_wordmark.png> <./images/lineinr3.png> <./images/ftc.jpg> <./images/sphere2man.png> <./images/manwbound.png> <./images/tangentvec.png> <./images/tanvecdetails.png>] (poster.aux)
+{C:/Users/vishn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/ashoka-logo.png> <./images/lineinr3.png> <./images/ftc.jpg> <./images/sphere2man.png> <./images/manwbound.png> <./images/tangentvec.png> <./images/tanvecdetails.png> <./images/riemannint.png (PNG copy)> <./images/tangentareaelement.png> <./images/dxdyform.png> <./images/2dxdyform.png> <./images/xdxdyform.png> <./images/atom-manifolds.png> <./images/otherformsmotiv.png> <./images/2formsinr3.png> <./images/2formasproj.png>] (poster.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -994,17 +1047,17 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 32790 strings out of 474436
- 815453 string characters out of 5741954
- 1961190 words of memory out of 5000000
- 54475 multiletter control sequences out of 15000+600000
- 605230 words of font info for 120 fonts, out of 8000000 for 9000
+ 33129 strings out of 474436
+ 822101 string characters out of 5741954
+ 1973190 words of memory out of 5000000
+ 54803 multiletter control sequences out of 15000+600000
+ 609696 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,786b,1549s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on poster.pdf (1 page, 611712 bytes).
+<C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vishn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on poster.pdf (1 page, 1062389 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,3 +1,11 @@
 Manifolds
     tangent spacces: Imagine a sphere in $\mathbb{R}^3$. At each point on the sphere, there is a tangent plane. This tangent plane is eaasy to retrieve for this surface in $\mathbb{R}^3$. But how does one retrieve this for the sphere as a manifold?
     
+Diff forms:
+
+Motivating other orderforms
+    We have already determined that "covers of the space with points" are suitable for integrating over $n$-dimensional sets and measuring $n$-dimensional volumes. However, this approach is insufficient for integrating over $k$-dimensional sets (pecifically $k$-dimensional submanifolds, $\mathcal{N}$) and calculating their $k$-volumes, s of $\mathcal{M}$. 
+                
+    We want to define an object on \( \mathcal{M} \) that can turn something that takes \( k \) vectors tangent to \( \mathcal{N} \) and returns a number. Naturally, we define a “\( k \)-form on \( \mathcal{M} \)” as an object \( \omega \) that takes \( k \) tangent vectors at the same point of \( \mathcal{M} \), and its restriction to \( \mathcal{N} \) is simply the restriction of \( \omega \) to the collection of vectors tangent to \( \mathcal{N} \).
+    
+    Proposition: Visualise a $k$-form on $\mathbb{R}^n$ as a stack of $n-k$ dimensional hyperplanes. The intersection of the hyperplanes and the $k$-dimensional subspace gives points which act as the atoms that we use for measuring $k$-volume. So we just count the number of hyperplanes that intersect with $\mathcal{N}$ and multiply by the scaling factor.
