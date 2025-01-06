@@ -115,7 +115,7 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
             \item The motivation is to figure out what integration on a manifold means. Unlike Euclidean space, smooth manifolds don't have a straightforward way to measure areas when changing coordinates. Integrating a constant function on two spheres of different radii in $\mathbb{R}^3$ gives different results. Both are indistinguishable as $2$-manifolds (diffeomorphic).
             \item Integration over Euclidean surfaces and where that fails on manifolds: infinitesimal area elements. How to measure that on the manifold? Charts don't work as they don't preserve area. 
             \begin{center}
-                \includegraphics[scale=0.6]{riemannint.png} \quad \quad \quad \quad \quad \quad \quad \quad \quad
+                \includegraphics[scale=0.6]{riemannint.png} \qquad \qquad \qquad  
                 \includegraphics[scale=0.5]{tangentareaelement.png}
             \end{center}
             % \begin{center}
@@ -249,13 +249,51 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
             
 
          If we see integrating an $n-1$-form on $\mathcal{N}$, as counting the planes entering $\mathcal{N}$, we conclude that solving the problem of integrating $\omega$ over $\mathcal{N}$ is the same as to count the number of line ends in $\mathcal{M}$. That is,
-         \[
-            \int_{\mathcal{\partial M}} \omega = \int_{\mathcal{M}} d\omega.
-         \] 
+         
+            \hspace{10cm}
+            \begin{minipage}[c]{0.1\textwidth}
+                \includegraphics[scale=0.2]{stokesthm.png}
+            \end{minipage}
+            \qquad
+            \begin{minipage}[c]{0.25\textwidth}
+                \includegraphics[scale=0.8]{stokes.png}
+            \end{minipage}
+
+
 
         }
         \block{References}{
-                
+                \begin{biblist}
+                    \bib{1}{misc}{
+                      title={On the Visualization of Differential Forms (Finished except for appendix)},
+                      author={ist189623},
+                      year={2021},
+                      month={September},
+                      url={https://web.tecnico.ulisboa.pt/~ist189623/wordpress/2021/09/08/on-the-visualization-of-differential-forms/},
+                      
+                    }
+                    \bib{misner1973}{book}{
+                      author={Misner, Charles W.},
+                      author={Wheeler, John A.},
+                      author={Thorne, Kip S.},
+                      title={Gravitation},
+                      publisher={W. H. Freeman \& Co.},
+                      year={1973}
+                    }
+                    \bib{fortney2018}{book}{
+                      author={Fortney, Jon Pierre},
+                      title={A Visual Introduction to Differential Forms and Calculus on Manifolds},
+                      year={2018},
+                      publisher={Springer}
+                    }
+                    \bib{needham2021}{book}{
+                      author={Needham, Tristan},
+                      title={Visual Differential Geometry and Forms: A Mathematical Drama in Five Acts},
+                      year={2021},
+                      publisher={Princeton University Press},
+                    }
+                \end{biblist}
+
            }
         
     \end{columns}
