@@ -57,7 +57,7 @@
 
 \title{\parbox{0.5\linewidth}{Generalised Stokes Theorem}}
 \author{\textbf{Vishnu Varadarajan}}
-\institute{Ashoka University Math Apprenticeship Program, Ashoka University}
+\institute{Ashoka University}
 
 \titlegraphic{\includegraphics[width=0.3\textwidth]{ashoka-logo.png} \hspace*{4cm}}
 
@@ -73,7 +73,7 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
         \block{Context}{
             
             \begin{itemize}
-                \item Gauss was studying surfaces, and wanted to define curvature in a way that was independent of the $3$-dimensional space that the surface is embedded in. The vector calculus view of surfaces is an extrinsic view. But there is also an intrinsic geometry of these surfaces.
+                \item Gauss was studying surfaces, and wanted to define curvature in a way that was independent of the $3$-dimensional space that the surface is embedded in. The vector calculus view of surfaces is an extrinsic view. But there is also an intrinsic geometry of these surfaces. This intrinsic view of surfaces is developed in the theory of manifolds.
                 \begin{center}
                     \begin{tikzpicture}
                         \draw[<->, thin] (-10,0) to (-5,0) node[above left=10pt] {$\mathbb{R}$};
@@ -89,19 +89,19 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
                     \includegraphics[scale=0.4]{lineinr3.png} 
                     \includegraphics[scale=0.27]{ftc.jpg}
                 \end{center}
-                This intrinsic view of surfaces, is developed in the theory of manifolds.
-                \item The generalised stokes theorem is an analog to the fundamental theorem of calculus, in the setting of manifolds. The fundamental theorem of calculus states:
+                
+                \item The generalised Stokes theorem is an analog to the fundamental theorem of calculus, in the setting of manifolds
             \end{itemize}
         }
         \block{Manifolds}{
             \begin{itemize}
-                \item Manifolds are a topological space such that each point is locally homeomorphic to an open set in a Euclidean space. For example, circles, spheres, torus, etc. There are surfaces that dont fully fit into this definition like the hemisphere. The neighborhood of a point on its boundary is not homeomorphic to a Euclidean space, because it is not an open set. For this, we restrict the co-domain of the homeomorphism to the Euclidean Half space. Such structures are called \textit{Manifolds with boundary}
+                \item \textbf{Manifolds} are a topological space such that each point is locally homeomorphic to an open set in an Euclidean space. ($\mathbb{R}^n$). \textbf{Manifolds with boundary} are manifolds, but the co-domain of the homeomorphism is an open set in the Euclidean Half-space ($\mathbb{H}^n$)
                 \begin{center}
                     % \includegraphics[scale=0.9]{circ1man.png}
                     \includegraphics[scale=0.7]{sphere2man.png} \quad \quad \quad \quad \quad \quad
                     \includegraphics[scale=0.3]{manwbound.png}
                 \end{center}
-                In the above, the neighborhood paired with the homeomorphism $(U,\varphi)$ is called a \textit{chart}. Because at all points this manifold resembles a Euclidean space, a collection of these charts for neighborhoods of each point on the manifold, is given the term \textit{Atlas}.
+                In the above, the neighborhood paired with the homeomorphism $(U,\varphi)$ is called a \textit{chart}. Because at all points this manifold resembles Euclidean space, a collection of these charts for neighborhoods of each point on the manifold, is given the term \textit{Atlas}.
                 \item Tangent Space: Recall the view of tangents as the direction of motion on a path on the surface. We consider paths on the manifold and the directional derivative operator along these paths on functions on the manifold as the tangent vectors. 
                 \begin{center}
                     
@@ -112,10 +112,10 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
         }
         \block{Differential Forms}{
         \begin{itemize}
-            \item The motivation is to figure out what integration on a manifold means. Unlike Euclidean space, smooth manifolds don't have a straightforward way to measure areas when changing coordinates. Integrating a constant function on two speres of different radii in $\mathbb{R}^3$ gives different results. Both are indistinguishable as $2$-manifolds (diffeormorphic).
-            \item Integration over Euclidean surfaces and where that fails on manifolds: infinitesimal area elements. How to measure that on the manifold? charts dont work as they dont preserve area. 
+            \item The motivation is to figure out what integration on a manifold means. Unlike Euclidean space, smooth manifolds don't have a straightforward way to measure areas when changing coordinates. Integrating a constant function on two spheres of different radii in $\mathbb{R}^3$ gives different results. Both are indistinguishable as $2$-manifolds (diffeomorphic).
+            \item Integration over Euclidean surfaces and where that fails on manifolds: infinitesimal area elements. How to measure that on the manifold? Charts don't work as they don't preserve area. 
             \begin{center}
-                \includegraphics[scale=0.5]{riemannint.png} \quad \quad \quad \quad \quad \quad \quad \quad \quad
+                \includegraphics[scale=0.6]{riemannint.png} \quad \quad \quad \quad \quad \quad \quad \quad \quad
                 \includegraphics[scale=0.5]{tangentareaelement.png}
             \end{center}
             % \begin{center}
@@ -166,12 +166,12 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
 
             %         \end{tikzpicture}
             % \end{center}
-            \item At each point on the manifold, we need a way to measure the area of infinitesimal rectangles in a manner independent of coordinates. This is achieved through differential forms. A $k$-form takes an ``infinitesimal $k$-parallelogram'' (edges given by tangent vectors) as input and returns its $k$-volume. When areas come into picture, it is natural to expect multilinearity and antisymmetry. The algebra is developed keeping this mind. 
+            \item At each point on the manifold, we need a way to measure the area of infinitesimal rectangles in a manner independent of coordinates. This is achieved through differential forms. A $k$-form takes an ``infinitesimal $k$-parallelogram'' (edges given by tangent vectors) as input and returns its $k$-volume. When areas come into picture, it is natural to expect multilinearity and antisymmetry. The algebra is developed keeping this in mind. 
             \item Tensors: A $k$-tensor is a multilinear map from $V^k$ to $\mathbb{R}$, where $V$ is a vector space. A tensor is said to be alternating if it changes sign under the interchange of any two of its arguments.
             \[
                 T(v_1, \ldots, v_k) = \text{sgn}(\sigma) T(v_{\sigma(1)}, \ldots, v_{\sigma(k)})
             \]
-            Tensor Product: combines a $k$-tensor and an $l$-tensor to form a $(k+l)$-tensor. Defined as following, where $T$ and $S$ are $k$ and $l$ tensors respectively.
+            Tensor Product: combines a $k$-tensor and an $l$-tensor to form a $(k+l)$-tensor. Defined as follows, where $T$ and $S$ are $k$ and $l$ tensors respectively.
             \[
                 T \otimes S(v_1, \ldots, v_{k+l}) = T(v_1, \ldots, v_k) S(v_{k+1}, \ldots, v_{k+l})
             \]
@@ -179,31 +179,30 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
             \[
                 \text{Alt}(T)(v_1, \ldots, v_k) = \frac{1}{k!} \sum_{\sigma \in S_k} \text{sgn}(\sigma) T(v_{\sigma(1)}, \ldots, v_{\sigma(k)}) = \frac{1}{k!} \sum_{\sigma \in S_k} \sigma T \cdot \text{sgn}(\sigma)
             \]
-            \item The wedge product: combines $k$-tensor and $l$-tensor to form an alternating $(k+l)$-tensor. It is defined as following, where $T$ and $S$ are $k$ and $l$ tensors respectively.
+            \item The wedge product: combines $k$-tensor and $l$-tensor to form an alternating $(k+l)$-tensor. It is defined as follows, where $T$ and $S$ are $k$ and $l$ tensors respectively.
             \[
                 T \wedge S = \text{Alt}(T \otimes S)
             \]
         \end{itemize}
+        A consistent way to measure $k$-volume: a mesh of atoms and counting how many of those lie within the object, multiplied by a scaling factor. Coordinate-independent measurement of area, as any distortion between two charts will imply an equal distortion of the atoms, and the area is conserved.
         }
         
 
         \column{0.5}
          \block{}{
-            A consistent way to measure $k$-volume: a mesh of atoms and conting how many of those lie within the object, multiply by a scaling factor. Coordinate-independent measurement of area, as any distortion between two charts of will imply an equal distortion of the atoms, and area is conserved.
+            
             \begin{center}
-                \includegraphics[scale=0.3]{dxdyform.png} \qquad
-                \includegraphics[scale=0.3]{2dxdyform.png} \qquad
-                \includegraphics[scale=0.3]{xdxdyform.png}
-            \end{center}
-            With this, we think of a $k$-form as a measuring tape for $k$-dimensional volumes. This motivates an $n$- form on an $n$-manifold but why are other order forms needed? 
-            \begin{center}
-                \includegraphics[scale=0.3]{atom-manifolds.png}\qquad
+                \includegraphics[scale=0.3]{dxdyform.png} \quad
+                \includegraphics[scale=0.3]{2dxdyform.png} \quad
+                \includegraphics[scale=0.3]{xdxdyform.png} \quad
+                \includegraphics[scale=0.3]{atom-manifolds.png}\quad
                 \includegraphics[scale=0.35]{otherformsmotiv.png}
             \end{center}
+            With this, we think of a $k$-form as a measuring tape for $k$-dimensional volumes. This motivates an $n$- form on an $n$-manifold but why are other order forms needed? 
             \begin{itemize}
-                \item The above definitions are insufficient for integrating over $k$-dimensional subsets (pecifically $k$-dimensional submanifolds, $\mathcal{N}$) and calculating their $k$-volumes, s of $\mathcal{M}$. 
+                \item The above definitions are insufficient for integrating over $k$-dimensional subsets (specifically $k$-dimensional submanifolds of $\mathcal{M}$, $\mathcal{N}$) and calculating their $k$-volumes. 
                 \item Algebraically, We define a “\( k \)-form on \( \mathcal{M} \)” as an object \( \omega \) that takes \( k \) tangent vectors at the same point of \( \mathcal{M} \), and its restriction to \( \mathcal{N} \) is simply the restriction of \( \omega \) to the collection of vectors tangent to \( \mathcal{N} \).
-                \item To visualise it, a $k$-form on $\mathbb{R}^n$ can be seen as a stack of $n-k$ dimensional hyperplanes. The intersection of the hyperplanes and the $k$-dimensional subspace gives points which act as the atoms that we use for measuring $k$-volume.
+                \item To visualise it, a $k$-form on $\mathbb{R}^n$ can be seen as a stack of $n-k$ dimensional hyperplanes. The intersection of the hyperplanes and the $k$-dimensional subspace gives points that act as the atoms we use to measure $k$-volume.
                 \begin{center}
                     \includegraphics[scale=0.8]{2formsinr3.png} \qquad \qquad
                     \includegraphics[scale=0.3]{2formasproj.png}
@@ -216,21 +215,48 @@ mark=at position #1/11+0.1/11 with {\arrow[orange]{>};}}}}}
                 \item Extending these to the manifold: at each point, the $k$-form behaves similarly on the tangent space. 
             \end{itemize}
          }
-        
-        \block{Integration}{
+        \block{Exterior Derivative}{
+            The exterior derivative of a $k$-form is a $(k+1)$-form.
             \begin{itemize}
-                \item integral of forms on Rn
-                \item partitions of unity
-                \item integral of forms on M
-                \item change of variables
-                \item integral of forms on Rn
-                \item partitions of unity
-                \item integral of forms on M
-                \item change of variables
+                \item If \( f \) is a smooth function (a \( 0 \)-form), then its exterior derivative \( df \) is the differential of \( f \). Specifically, \( df \) is the unique \( 1 \)-form such that for any smooth vector field \( X \),
+                \(
+                df(X) = d_X f,
+                \)
+                where \( d_X f \) is the directional derivative of \( f \) in the direction of \( X \). Restricting the form to a chart $U$ with coordinates $x_1, x_2, \cdots x_i$ we get a local expression for the form, \[ df = \sum_i \frac{\partial f}{\partial x_i} dx_i. \]
+                \item Given a $k$-form $\omega = \sum_{I} a_I dx^I$, where $I$ is a multi-index, the exterior derivative of $\omega$ is defined as
+                \[
+                    d\omega = \sum_{I} da_I \wedge dx^I.
+                \]
+
             \end{itemize}
+        Consider a form like \( x dy \) in $\mathbb{R}^2$, where the horizontal lines (representing \( dy \)) become more concentrated as you move to the right. As you move to the right from $x=0$, more and more lines are stacked. Same with moving left from $x=0$, but with negative concentration. 
+
+        For a general form, we can think of it as a stack of surfaces. Taking the exterior derivative of a \( k \)-form essentially asks, “What is the boundary of this structure?” 
+        \begin{center}
+            \includegraphics[scale=0.5]{exteriorderivative.png}
+            \qquad
+            \includegraphics[scale=1]{d of xydz.png}
+        \end{center}
+
+        For a form that has no ``boundary", the exterior derivative becomes zero. Or a form like \( x dy \), its boundary becomes a dense collection of points, capturing a notion similar to the familiar \( dx \wedge dy \).
         }
+        
         \block{Generalised Stokes Theorem}{
-            statement, visual importance
+        \begin{itemize}
+            \item Consider an \( n \)-dimensional manifold $\mathcal{M}$ with a boundary component $\mathcal{N}$ that separates $\mathcal{M}$ into an ``inside" and ``outside" region. For such a separation to make sense, we require the "inside" to be compact or ``small” enough to avoid infinite extension within $\mathcal{M}$.
+            \item Integrating a \( k \)-form \( \omega \) over $\mathcal{N}$, is counting how many field lines enter and exit the boundary. Since $\mathcal{N}$ compactly encloses an interior, any field line that starts inside $\mathcal{N}$ either exits $\mathcal{N}$ or terminates within $\mathcal{M}$. The points where they enter contribute to integration as the positive atoms and those that
+        \end{itemize}
+            
+
+         If we see integrating an $n-1$-form on $\mathcal{N}$, as counting the planes entering $\mathcal{N}$, we conclude that solving the problem of integrating $\omega$ over $\mathcal{N}$ is the same as to count the number of line ends in $\mathcal{M}$. That is,
+         \[
+            \int_{\mathcal{\partial M}} \omega = \int_{\mathcal{M}} d\omega.
+         \] 
+
         }
+        \block{References}{
+                
+           }
+        
     \end{columns}
 \end{document}

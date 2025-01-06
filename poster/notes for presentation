@@ -1,11 +1,48 @@
+intro: line in R R2 R3, intrinsic view, generalised stokes as analog to FTC
+	
 Manifolds
-    tangent spacces: Imagine a sphere in $\mathbb{R}^3$. At each point on the sphere, there is a tangent plane. This tangent plane is eaasy to retrieve for this surface in $\mathbb{R}^3$. But how does one retrieve this for the sphere as a manifold?
+	Manifold def: to retrieve this intrinsic view, zoom in, look around, it is a line so a 1 manifold. earth is a sphere, but to you it looks like a plane, it is a 2-manifold. 
+		if formal def:
+			Manifolds w boundary: There are surfaces that dont fully fit into this definition like the hemisphere. The neighborhood of a point on its boundary is not 				homeomorphic to a Euclidean space, because it is not an open set. For this, we restrict the co-domain of the homeomorphism to the Euclidean Half space.
+		if not formal def:
+			give more structure: manifolds with boundary.need not have; sphere. could: hemisphere
+	tangent spaces: Imagine a sphere in \mathbb{R}^3. At each point on the sphere, there is a tangent plane. This tangent plane is eaasy to retrieve for this surface in \mathbb{R}^3. 		But how does one retrieve this for the sphere as a manifold?
+		directional derivatives, velocity as the tangent/ derivative
+
+   
     
 Diff forms:
+	why : integration. Riemann integration and where that fails on manifolds. eg integration of a constant func over a sphere of two radii: surface area. the two spheres are indistinguishable(diffeomorphic) as manifolds. At each point on the manifold, we need a way to measure the area of infinitesimal rectangles made of tangent vectors in a manner independent of coordinates and a k-form does exactly this. takes k vectors (from VS) and returns the area of the infinitesimal parallelogram spanned by these vectors. sphere example. multilinearity and antisymmetry come hand in hand with notion of k-volume, dets
 
-Motivating other orderforms
-    We have already determined that "covers of the space with points" are suitable for integrating over $n$-dimensional sets and measuring $n$-dimensional volumes. However, this approach is insufficient for integrating over $k$-dimensional sets (pecifically $k$-dimensional submanifolds, $\mathcal{N}$) and calculating their $k$-volumes, s of $\mathcal{M}$. 
-                
-    We want to define an object on \( \mathcal{M} \) that can turn something that takes \( k \) vectors tangent to \( \mathcal{N} \) and returns a number. Naturally, we define a “\( k \)-form on \( \mathcal{M} \)” as an object \( \omega \) that takes \( k \) tangent vectors at the same point of \( \mathcal{M} \), and its restriction to \( \mathcal{N} \) is simply the restriction of \( \omega \) to the collection of vectors tangent to \( \mathcal{N} \).
-    
-    Proposition: Visualise a $k$-form on $\mathbb{R}^n$ as a stack of $n-k$ dimensional hyperplanes. The intersection of the hyperplanes and the $k$-dimensional subspace gives points which act as the atoms that we use for measuring $k$-volume. So we just count the number of hyperplanes that intersect with $\mathcal{N}$ and multiply by the scaling factor.
+		if tensor structure:
+			multilin map from V^k to R. tensor pdt: combine k and l tensor. like a direct product. alternating tensors: simple parallelogram example.
+			alt(T). wedge product.
+			
+			tensor str of diff forms. 
+
+	forms as measuring tapes
+	Consistent way to measure k-volume of a k manifold: 7th standard method. count squares inside the fugure, mult by area(weight of each square). volume example. 
+		The idea: Mesh of points
+
+	Motivating other orderforms
+		Visualise a k-form on Rn as a stack of n-k dimensional hyperplanes. why? you want a mesh of points on the k dim submanifold. But also, you want to define this form on M(Rn) so the other n-k dimentions you let vary. gives an n-k plane at each point. 
+	
+
+	basis k-forms: measuring tapes along the k hyperplanes.
+
+Exterior derivative:
+
+	algebra
+	
+	Taking the exterior derivative of a k-form essentially asks, “What is the boundary of this structure?”
+	the xdy example, 
+		x: increasing density with magnitude of x 
+		dy: change along y axis so lines are orthogonal to y
+	=> creation of lines => boundary.
+
+	the boundary is a similar notion to dx dy = d(x dy)
+
+
+STOKES:
+	just explain the figure
+	
